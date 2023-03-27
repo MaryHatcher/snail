@@ -1,0 +1,60 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+#snailType{
+  width: 15vh;
+  right: 1rem;
+  position: fixed;
+}
+
+#flex{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+#snail{
+  width: 35vh;
+  margin:auto;
+  margin-bottom:1.5rem;
+}
+
+#steps{
+width:fit-content;
+}
+
+.address{
+  display: flex; 
+  justify-content: center;
+}
+
+#blurb{
+  position:fixed;
+  bottom:0;
+  margin:1rem;
+  text-align:center;
+}
